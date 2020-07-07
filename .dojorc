@@ -1,0 +1,8 @@
+{
+	"build-widget": {
+		"widgets": [
+			"src/app",
+            "src/page"
+		]
+	}
+}
