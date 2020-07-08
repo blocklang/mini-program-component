@@ -19,6 +19,7 @@
     },
     "dependencies": {
         "@dojo/framework": "^7.0.1",
+        "@dojo/widgets": "^7.0.0",
         "tslib": "~2.0.0"
     },
     "devDependencies": {
@@ -35,7 +36,8 @@
         "prettier": "^2.0.5",
         "shx": "^0.3.2",
         "sinon": "^9.0.2",
-        "typescript": "~3.9.6"
+        "typescript": "~3.9.6",
+        "@dojo/parade": "~1.0.0"
     },
     "husky": {
         "hooks": {
