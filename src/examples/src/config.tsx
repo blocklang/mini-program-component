@@ -5,9 +5,8 @@ import BasicApp from "./widgets/app/Basic";
 export default {
 	name: "小程序组件库",
 	home: "README.md",
-	codesandbox: {},
 	tests,
-	themes: [dojoTheme],
+	themes: [{ label: "dojo", theme: dojoTheme }],
 	readmePath: (widget: string) => `src/${widget}/README.md`,
 	widgetPath: (widget: string, filename: string) => `src/${widget}/${filename || "index"}.tsx`,
 	examplePath: (widget: string, filename: string) => `src/examples/src/widgets/${widget}/${filename || "index"}.tsx`,
