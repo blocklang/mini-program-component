@@ -14,7 +14,6 @@
   "dependencies": {
     "@dojo/framework": "next",
     "@dojo/parade": "next",
-    "@dojo/widgets": "next",
     "@types/node": "14.0.19",
     "globalize": "1.5.0",
     "tslib": "~2.0.0",

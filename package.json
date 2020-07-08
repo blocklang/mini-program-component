@@ -19,7 +19,6 @@
     },
     "dependencies": {
         "@dojo/framework": "^7.0.1",
-        "@dojo/widgets": "^7.0.0",
         "tslib": "~2.0.0"
     },
     "devDependencies": {
