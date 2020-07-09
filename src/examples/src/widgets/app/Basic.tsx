@@ -7,7 +7,9 @@ const factory = create();
 export default factory(function Basic() {
 	return (
 		<Example>
-			<App />
+			<div styles={{ width: "414px", height: "736px", marginLeft: "auto", marginRight: "auto" }}>
+				<App>app</App>
+			</div>
 		</Example>
 	);
 });

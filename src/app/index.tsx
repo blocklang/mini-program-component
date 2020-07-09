@@ -1,5 +1,7 @@
 import { tsx, create } from "@dojo/framework/core/vdom";
 import { Window, TabBar } from "../interfaces";
+import SystemStatusBar from "./SystemStatusBar";
+import MiniProgramNavigator from "./MiniProgramNavigator";
 
 // 定义部件的属性
 export interface AppProperties {
@@ -10,8 +12,12 @@ export interface AppProperties {
 const factory = create().properties<AppProperties>();
 
 // 定义部件
-export default factory(function App({ properties }) {
-	const {} = properties();
-
-	return <div>app app</div>;
+export default factory(function App({ children }) {
+	return (
+		<div>
+			<SystemStatusBar />
+			<MiniProgramNavigator />
+			{children()}
+		</div>
+	);
 });

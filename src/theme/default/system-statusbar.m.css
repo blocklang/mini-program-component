@@ -1,0 +1,6 @@
+.root {
+	composes: row from "bootstrap/dist/css/bootstrap.css";
+	composes: px-2 from "bootstrap/dist/css/bootstrap.css";
+	composes: py-1 from "bootstrap/dist/css/bootstrap.css";
+	font-size: var(--font-size-small);
+}
