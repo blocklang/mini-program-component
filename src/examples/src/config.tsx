@@ -1,6 +1,7 @@
 import tests from "./tests";
 import defaultTheme from "../../theme/default";
 import BasicApp from "./widgets/app/Basic";
+import BasicPage from "./widgets/page/Basic";
 
 export default {
 	name: "小程序组件库",
@@ -17,6 +18,15 @@ export default {
 				example: {
 					filename: "Basic",
 					module: BasicApp,
+				},
+			},
+		},
+		page: {
+			filename: "index",
+			overview: {
+				example: {
+					filename: "Basic",
+					module: BasicPage,
 				},
 			},
 		},
