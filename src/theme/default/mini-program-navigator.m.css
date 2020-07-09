@@ -1,0 +1,35 @@
+.root {
+	composes: row from "bootstrap/dist/css/bootstrap.css";
+	composes: px-2 from "bootstrap/dist/css/bootstrap.css";
+	composes: py-2 from "bootstrap/dist/css/bootstrap.css";
+	font-size: var(--font-size-normal);
+}
+
+.left {
+	composes: col from "bootstrap/dist/css/bootstrap.css";
+}
+
+.center {
+	composes: col from "bootstrap/dist/css/bootstrap.css";
+	composes: text-center from "bootstrap/dist/css/bootstrap.css";
+}
+
+.right {
+	composes: col from "bootstrap/dist/css/bootstrap.css";
+	composes: d-flex from "bootstrap/dist/css/bootstrap.css";
+	composes: justify-content-end from "bootstrap/dist/css/bootstrap.css";
+}
+
+.capsule {
+	border: 1px solid hsla(0, 0%, 100%, 0.25);
+	border-color: rgba(0, 0, 0, 0.1);
+	border-radius: 27px;
+}
+
+.iconMore {
+	composes: px-2 from "bootstrap/dist/css/bootstrap.css";
+}
+
+.iconClose {
+	composes: px-2 from "bootstrap/dist/css/bootstrap.css";
+}

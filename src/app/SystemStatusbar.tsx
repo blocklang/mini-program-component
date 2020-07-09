@@ -1,5 +1,6 @@
 import { create, tsx } from "@dojo/framework/core/vdom";
 import theme from "@dojo/framework/core/middleware/theme";
+import Timer from "./Timer";
 import * as css from "../theme/default/system-statusbar.m.css";
 import FontAwesomeIcon from "@blocklang/dojo-fontawesome/FontAwesomeIcon";
 
@@ -7,7 +8,6 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faSignal } from "@fortawesome/free-solid-svg-icons/faSignal";
 import { faWifi } from "@fortawesome/free-solid-svg-icons/faWifi";
 import { faBatteryFull } from "@fortawesome/free-solid-svg-icons/faBatteryFull";
-import Timer from "./Timer";
 
 library.add(faSignal, faWifi, faBatteryFull);
 

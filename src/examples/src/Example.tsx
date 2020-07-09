@@ -2,7 +2,7 @@ import { create, tsx } from "@dojo/framework/core/vdom";
 import theme from "@dojo/framework/core/middleware/theme";
 import * as css from "./Example.m.css";
 
-const factory = create({ theme });
+const factory = create({ theme }).properties();
 
 export default factory(function ({ children, middleware: { theme } }) {
 	const [example, ...rest] = children();
