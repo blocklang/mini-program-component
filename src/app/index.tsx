@@ -12,11 +12,12 @@ export interface AppProperties {
 const factory = create().properties<AppProperties>();
 
 // 定义部件
-export default factory(function App({ children }) {
+export default factory(function App({ properties, children }) {
+	const { window } = properties();
 	return (
 		<div>
 			<SystemStatusbar />
-			<MiniProgramNavigator />
+			<MiniProgramNavigator title={window && window.navigationBarTitleText} />
 			{children()}
 		</div>
 	);
