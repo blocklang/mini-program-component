@@ -16,7 +16,7 @@ export default factory(function Basic() {
 					border: "black solid 1px",
 				}}
 			>
-				<App>app1</App>
+				<App window={{ navigationBarBackgroundColor: "#fff" }}>app1</App>
 			</div>
 		</Example>
 	);
