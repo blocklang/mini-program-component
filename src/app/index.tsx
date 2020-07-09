@@ -1,6 +1,6 @@
 import { tsx, create } from "@dojo/framework/core/vdom";
 import { Window, TabBar } from "../interfaces";
-import SystemStatusBar from "./SystemStatusBar";
+import SystemStatusbar from "./SystemStatusbar";
 import MiniProgramNavigator from "./MiniProgramNavigator";
 
 // 定义部件的属性
@@ -15,7 +15,7 @@ const factory = create().properties<AppProperties>();
 export default factory(function App({ children }) {
 	return (
 		<div>
-			<SystemStatusBar />
+			<SystemStatusbar />
 			<MiniProgramNavigator />
 			{children()}
 		</div>

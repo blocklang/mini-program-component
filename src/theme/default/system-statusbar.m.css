@@ -4,3 +4,27 @@
 	composes: py-1 from "bootstrap/dist/css/bootstrap.css";
 	font-size: var(--font-size-small);
 }
+
+.left {
+	composes: col from "bootstrap/dist/css/bootstrap.css";
+}
+
+.center {
+	composes: col from "bootstrap/dist/css/bootstrap.css";
+	composes: text-center from "bootstrap/dist/css/bootstrap.css";
+}
+
+.right {
+	composes: col from "bootstrap/dist/css/bootstrap.css";
+	composes: d-flex from "bootstrap/dist/css/bootstrap.css";
+	composes: justify-content-end from "bootstrap/dist/css/bootstrap.css";
+	composes: align-items-center from "bootstrap/dist/css/bootstrap.css";
+}
+
+.title {
+	composes: mx-1 from "bootstrap/dist/css/bootstrap.css";
+}
+
+.battery {
+	composes: mx-1 from "bootstrap/dist/css/bootstrap.css";
+}
