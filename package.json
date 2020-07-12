@@ -1,6 +1,6 @@
 {
-    "name": "mini-program-component",
-    "version": "0.1.0",
+    "name": "@blocklang/mini-program-component",
+    "version": "0.0.1-alpha.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/blocklang/mini-program-component.git"
